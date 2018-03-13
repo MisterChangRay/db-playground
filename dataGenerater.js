@@ -169,4 +169,4 @@
     }
     output.end();
 
-    console.log('耗时：' + (new Date().getTime() - start));
+    console.log('数据生成完毕；耗时：' + (new Date().getTime() - start));
