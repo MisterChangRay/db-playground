@@ -25,14 +25,14 @@
 
 
 #### 文件描述：
-- dataGenerater.js //数据生成器
-- Mtils.amd.cmd.umd.js //依赖包
-- user-info.sql //已经生成好的示例文件
+- dataGenerater.js 数据生成器
+- Mtils.amd.cmd.umd.js 依赖包
+- user-info.sql 已经生成好的示例文件
 
 #### 数据生成步骤：
 - 数据生成器由nodejs编写需要安装node.js环境
 - 编辑dataGenerater.js，修改生成条数和生成路径
-- 打开控制台，然后等待运行结束即可；
+- 打开控制台，然后等待运行结束即可；结束时有运行耗时提示；
 - 将生成的sql文件导入数据库，即可开始上手练习
 
 
