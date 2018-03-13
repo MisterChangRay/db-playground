@@ -1,13 +1,13 @@
 # DBPlayground
 数据库练习,可生成百万级别数据提供练习
 
-### 数据库此数据建表语句如下
+### 数据库此数据建表语句如下，此表模拟普通系统用户注册表；
 
 ```sql
 
-create database playground character set 'utf8'; 
+ create database playground character set 'utf8'; 
 
-use playground;
+ use playground;
 
  drop table user_info;
  create table user_info (
