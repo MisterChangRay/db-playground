@@ -1,6 +1,6 @@
     
     // 生成条数
-    var max = 10000;
+    var max = 1000;
     // 文件生成路径
     var outputFile = 'D:/workspace/DBPlayground/user-info.sql';
 
@@ -158,7 +158,7 @@
         index2 ++;
         userInfo = getUserInfo();
         sqls += `(null, '${userInfo.username}', '${userInfo.password}', '${userInfo.idcard}', '${userInfo.email}', '${userInfo.name}', '${userInfo.addr}', '${userInfo.sex}', '${userInfo.phone}')`
-        if(index < max - 1) {
+        if(index < max ) {
             sqls += ',\r\n';
         }
         if(index2 === 1000) {
