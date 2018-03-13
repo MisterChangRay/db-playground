@@ -18,8 +18,9 @@
    email varchar(100),
    name varchar(100),
    address varchar(500),
-   sex tinyint,
-   phone varchar(100)
+   -- sex 1男0女
+   sex tinyint,
+   phone varchar(100)
  ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
