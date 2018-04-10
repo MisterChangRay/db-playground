@@ -42,7 +42,8 @@
 
 ### 示例数据(更多数据参考项目下`user-info.sql`文件)
 ```sql
-insert into user_info values(null, 'binianer', 'f3d866e70213583e290d607cd2cb67c0', '530181201009218304', 'binianer_bgi@live.com', '毕念儿', '云南省西双版纳傣族自治州勐腊县', '0', '13771701654'),
+insert into user_info values
+(null, 'binianer', 'f3d866e70213583e290d607cd2cb67c0', '530181201009218304', 'binianer_bgi@live.com', '毕念儿', '云南省西双版纳傣族自治州勐腊县', '0', '13771701654'),
 (null, 'yuzuiping', '0ff2b59c0e20952fa483b6bc4fefb309', '452124200903145808', 'yuzuiping_cywfv@0355.net', '余醉萍', '四川省攀枝花市东区', '0', '13392232896'),
 (null, 'douanbai', '7f45ecd81bda9719457c706819f82546', '532932198604164527', 'douanbai_cwzen@msn.com', '窦安白', '福建省漳州市东山县', '0', '13532845493'),
 (null, 'yangyiran', '2e935275ef5b98d690c22729adc59c64', '429001200102248998', 'yangyiran_wg@163.net', '杨益冉', '山东省济南市平阴县', '1', '18954603561'),
