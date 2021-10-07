@@ -53,4 +53,5 @@ insert into user_info values
 (null, 'lexixia', '331c0226ce71a97026d8ab0f20f92a8b', '210781198607187804', 'lexixia_zdf@yeah.com', '乐惜夏', '甘肃省甘南藏族自治州碌曲县', '0', '13370306616'),
 ```
 
-
+test.sh中是把.sql载入数据库的shell命令
+你可以更改相应的变量来实现相应的操作
