@@ -1,8 +1,8 @@
     
     // 生成条数
-    var max = 1000;
+    var max = 10000;
     // 文件生成路径
-    var outputFile = 'D:/workspace/DBPlayground/user-info.sql';
+    var outputFile = './user-info.sql';
 
 
 
@@ -10,7 +10,7 @@
 
 
     var fs= require("fs");
-    var Mtils = require("./Mtils.amd.cmd.umd.js");
+    var Mtils = require("/root/nodetest/db-playground/Mtils.amd.cmd.umd.js");
 
     // 获取邮箱
     function getEmail(prefix) {
